@@ -9,8 +9,7 @@ The script `/opt/docker_files/build_spark.sh`clones the Spark repository and app
 
 ## Build  spark from trunk
 
-```
-#!bash
+```bash
    SPARK_DIR=/home/matysiak/development/open_source/Spark
    docker run --name dockerbuilder -ti -v $SPARK_DIR:/opt/sparkpatch -u devel joemat/docker-buildenv-for-spark bash /opt/docker_files/build_spark.sh
 ```
