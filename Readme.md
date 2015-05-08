@@ -1,4 +1,4 @@
-This container provides an environment to build the [Spark IM client](https://github.com/igniterealtime/Spark).
+This container that provides an environment to build the [Spark IM client](https://github.com/igniterealtime/Spark).
 
 
 
