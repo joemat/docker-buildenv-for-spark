@@ -18,16 +18,14 @@ The script `/opt/docker_files/build_spark.sh`clones the Spark repository and app
 
 Find installers in the `~/Spark/installer` directory, copy them using docker cp:
 
-`` `
-#!bash
+```bash
    docker cp dockerbuilder:/home/devel/Spark/installer .
 ```
 
 # Create image (optional, when not using the image from dockerhub)
 
 
-```
-#!bash
+```bash
     git clone https://github.com/joemat/docker-buildenv-for-spark.git
     cd docker-buildenv-for-spark
     docker build -t docker-buildenv-for-spark .
